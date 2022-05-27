@@ -1,5 +1,5 @@
 import itertools
-arraychik = open('input1.txt','r')
+arraychik = open('input.txt','r')
 file = open('output2.txt','w+')
 maxdlina = 0
 puti = {}
