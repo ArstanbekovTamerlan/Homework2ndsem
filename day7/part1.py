@@ -31,7 +31,7 @@ class Wire(object):
         self.inputs = [signals[i] if i in signals else i for i in self.inputs]
     def iscomplete(self):
         return all([isinstance(i, int) for i in self.inputs])
-arraychik = open('input1.txt', 'r')
+arraychik = open('input.txt', 'r')
 file = open('output1.txt', 'w+')
 wires = [Wire(line) for line in arraychik]
 wires_copy = list(wires)
