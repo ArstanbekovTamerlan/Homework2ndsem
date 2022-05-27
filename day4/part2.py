@@ -1,5 +1,5 @@
 import hashlib
-arraychik = open('input1.txt', 'r'). read()
+arraychik = open('input.txt', 'r'). read()
 file = open('output2.txt', 'w+')
 for i in range (10000000000000000000000) :
    tonik = arraychik + str(i)
