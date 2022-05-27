@@ -1,4 +1,4 @@
-arraychik = open('input1.txt', 'r'). read()
+arraychik = open('input.txt', 'r'). read()
 file = open('output1.txt', 'w+')
 x = 0
 y = 0
