@@ -1,5 +1,5 @@
 import itertools
-arraychik = open('input1.txt','r')
+arraychik = open('input.txt','r')
 file = open('output1.txt','w+')
 mindlina = 999999
 puti = {}
