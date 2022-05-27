@@ -1,4 +1,4 @@
-arraychik = open('input1.txt', 'r')
+arraychik = open('input.txt', 'r')
 file = open('output2.txt', 'w+')
 answerik = 0
 def func():
