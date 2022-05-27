@@ -1,5 +1,5 @@
 import numpy as np
-arraychik = open('input1.txt', 'r')
+arraychik = open('input.txt', 'r')
 file = open('output1.txt', 'w+')
 array = np.zeros((1000, 1000))
 for stroka in arraychik:
